@@ -25,13 +25,28 @@ button {
     padding-bottom: 5px;
     font-weight: bold;
     border: none;
+    box-shadow: 1px 1px 10px black;
     border-radius: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     margin-top: 2px;
 }
 #button-container {
     display: grid;
     align-items: center;
     justify-content: center;
+
 }
+@media (max-width: 767px) {
+    button {
+        color: #016f32;
+        width: 150px;
+        background: goldenrod;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        border: none;
+        margin-bottom: 5px;
+    }
+  }
+  
 
